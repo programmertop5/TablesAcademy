@@ -1,0 +1,10 @@
+﻿CREATE TABLE Teachers(
+	[Id]  INT NOT NULL PRIMARY KEY IDENTITY,
+	[EmploymentDate]  DATE  NOT NULL,
+	[Name]  NVARCHAR(MAX)  NOT NULL,
+	[Premium]  MONEY  NOT NULL DEFAULT 0,
+	[Salary]  MONEY  NOT NULL,
+	[Surname]  NVARCHAR(MAX)  NOT NULL
+)
+
+
